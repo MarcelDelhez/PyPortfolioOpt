@@ -1,4 +1,4 @@
-import re
+lhezimport re
 
 import setuptools
 
@@ -14,9 +14,9 @@ if __name__ == "__main__":
         description="Financial portfolio optimization in python",
         long_description=desc,
         long_description_content_type="text/markdown",
-        url="https://github.com/robertmartin8/PyPortfolioOpt",
-        author="Robert Andrew Martin",
-        author_email="martin.robertandrew@gmail.com",
+        url="https://github.com/MarcelDelhez/PyPortfolioOpt",
+        author="Marcel Delhez",
+        author_email="marcel.delhez@ing.com",
         license="MIT",
         packages=["pypfopt"],
         classifiers=[
@@ -27,6 +27,7 @@ if __name__ == "__main__":
             "License :: OSI Approved :: MIT License",
             "Natural Language :: English",
             "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3.13",
             "Programming Language :: Python :: 3.12",
             "Programming Language :: Python :: 3.11",
             "Programming Language :: Python :: 3.10",
