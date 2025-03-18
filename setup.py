@@ -15,8 +15,6 @@ if __name__ == "__main__":
         long_description=desc,
         long_description_content_type="text/markdown",
         url="https://github.com/MarcelDelhez/PyPortfolioOpt",
-        author="Marcel Delhez",
-        author_email="marcel.delhez@ing.com",
         license="MIT",
         packages=["pypfopt"],
         classifiers=[
@@ -49,9 +47,4 @@ if __name__ == "__main__":
         setup_requires=["pytest-runner"],
         tests_require=["pytest"],
         python_requires=">=3.8",
-        project_urls={
-            "Documentation": "https://pyportfolioopt.readthedocs.io/en/latest/",
-            "Issues": "https://github.com/robertmartin8/PyPortfolioOpt/issues",
-            "Personal website": "https://reasonabledeviations.com",
-        },
     )
